@@ -27,12 +27,3 @@
 (require 'setup-programming)
 (require 'setup-text)
 (require 'setup-local)
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; PACKAGE: workgroups2               ;;
-;;                                    ;;
-;; GROUP: Convenience -> Workgroups   ;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(require 'workgroups2)
-;; Change some settings
-(workgroups-mode 1)
