@@ -60,3 +60,7 @@
 ;; GROUP: Environment -> Mode Line    ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (column-number-mode 1)
+
+
+;; use ibuffer
+(global-set-key (kbd "C-x C-b") 'ibuffer)
