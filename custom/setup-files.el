@@ -91,7 +91,7 @@
 ;;                     ;;
 ;; GROUP: Files -> Vlf ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;
-(require 'vlf-integrate)
+(require 'vlf-setup)
 (setq vlf-application 'dont-ask) ;; automatically use vlf on large file,
 ;; when the file exceed large-file-warning-threshold
 
