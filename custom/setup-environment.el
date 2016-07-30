@@ -34,9 +34,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; GROUP: Environment -> Initialization ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(setq
- inhibit-startup-screen t
- )
+(setq inhibit-startup-screen t)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; GROUP: Environment -> Minibuffer   ;;
@@ -60,7 +58,6 @@
 ;; GROUP: Environment -> Mode Line    ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (column-number-mode 1)
-
 
 ;; use ibuffer
 (global-set-key (kbd "C-x C-b") 'ibuffer)
