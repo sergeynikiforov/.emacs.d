@@ -69,6 +69,8 @@
               filename-and-process)))
 
 ;; Package - projectile
+(require 'projectile)
+;;(setq projectile-enable-at-startup nil)
 (projectile-global-mode)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -76,6 +78,6 @@
 ;;                                    ;;
 ;; GROUP: Convenience -> Workgroups   ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(require 'workgroups2)
+;; (require 'workgroups2)
 ;; Change some settings
-(workgroups-mode 1)
+;; (workgroups-mode 1)

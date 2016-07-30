@@ -104,3 +104,13 @@
 ;; group Files
 (require 'ztree-diff)
 (require 'ztree-dir)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; PACKAGE: sr-speedbar  ;;
+;;                       ;;
+;; GROUP: No group       ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(require 'sr-speedbar)
+(setq speedbar-use-images nil)
+(setq sr-speedbar-right-side nil)
+

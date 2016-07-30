@@ -3,3 +3,7 @@ auto-save-list/*
 *\~
 *.elc
 *.eld
+ido.last
+places
+recentf
+smex-items
